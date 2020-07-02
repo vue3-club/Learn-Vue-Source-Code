@@ -1,8 +1,8 @@
 const path = require("path");
 module.exports = {
-  base: "/Learn-Vue-Source-Code/",
+  base: "/learn-vue/",
   dest: "dist",
-  title: "逐行剖析 Vue.js 源码",
+  title: "Vue源码系列-Vue中文社区",
   serviceWorker: true,
   markdown: {
     lineNumbers: true
@@ -34,6 +34,13 @@ module.exports = {
       {
         name: "theme-color",
         content: "#3eaf7c"
+      }
+    ],
+    [
+      "meta",
+      {
+        name: "keywords",
+        content: "vue源码,vue中文,vue社区,vue双向绑定,vue-router,vuerouter原理,vue面试"
       }
     ],
     [
@@ -87,6 +94,10 @@ module.exports = {
     editLinkText: "在 GitHub 上编辑此页",
     lastUpdated: "上次更新",
     sidebarDepth: 1,
+    nav:[
+      { text: 'Vue中文文档', link: 'https://doc.vue-js.com' }, // 内部链接 以docs为根目录
+      { text: 'Vue中文社区', link: 'https://vue-js.com' }, // 内部链接 以docs为根目录
+    ],
     sidebar: [
       {
         title: "写在最前面",
